@@ -34,7 +34,7 @@ end)
 ### Trigger Sign in with Apple
 
 ```Lua
-siwa.authenticate(id, function(self, data)
+siwa.authenticate(function(self, data)
 	print(data.identity_token)
 	print(data.user_id)
 	print(data.first_name, data.family_name)
