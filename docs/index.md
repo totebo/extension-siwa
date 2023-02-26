@@ -28,7 +28,7 @@ To get started you need to enable your app’s App ID with the Sign in with Appl
 ```Lua
 if siwa.is_supported() then
 	print("Sign in with Apple is supported")
-end)
+end
 ```
 
 ### Trigger Sign in with Apple
